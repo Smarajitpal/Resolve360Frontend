@@ -50,4 +50,4 @@ It supports JWT authentication, ticket escalation, and team collaboration.
 Clone the repository:
 
 ```bash
-[git clone https://github.com/Smarajitpal/Resolve360.git](https://github.com/Smarajitpal/Resolve360Frontend.git)
+https://github.com/Smarajitpal/Resolve360Frontend.git
