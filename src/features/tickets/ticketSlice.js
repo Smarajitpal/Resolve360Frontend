@@ -24,7 +24,7 @@ export const getTicketById = createAsyncThunk("tickets/getById", async (id) => {
 export const updateTicket = createAsyncThunk(
   "tickets/update",
   async ({ id, data }) => {
-    const response = await axios.patch(`${BASE_URL}/${id}/reply`, data);
+    const response = await axios.patch(`${BASE_URL}/${id}`, data);
     return response.data;
   }
 );
