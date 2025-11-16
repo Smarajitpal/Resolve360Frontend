@@ -1,7 +1,7 @@
 # 🚀 Resolve360
 
-Resolve360 is a full-stack ticketing and team management system built with **React + Redux Toolkit** on the frontend and **Node.js + Express + MongoDB (Neon Postgres optional)** on the backend.  
-It supports JWT authentication, SLA tracking, ticket escalation, and team collaboration.
+Resolve360 is a full-stack ticketing and team management system built with **React + Redux Toolkit** on the frontend and **Node.js + Express + MongoDB** on the backend.  
+It supports JWT authentication, ticket escalation, and team collaboration.
 
 ---
 
@@ -16,7 +16,6 @@ It supports JWT authentication, SLA tracking, ticket escalation, and team collab
 
 - 🔐 **Authentication**: JWT-based login/register with protected routes
 - 🎫 **Ticket Management**: Create, update, escalate, and reply to tickets
-- ⏱ **SLA Tracking**: Track SLA type, due date, and breach status
 - 👥 **Team Management**: Create teams, assign tickets, view members
 - 📊 **Dashboard**: Overview of tickets, escalations, and team performance
 - 💬 **Replies**: Agents can add threaded replies to tickets
@@ -36,7 +35,7 @@ It supports JWT authentication, SLA tracking, ticket escalation, and team collab
 **Backend**
 - Node.js
 - Express
-- MongoDB / Neon Postgres
+- MongoDB
 - JWT Authentication
 - Mongoose (if MongoDB)
 
@@ -51,5 +50,4 @@ It supports JWT authentication, SLA tracking, ticket escalation, and team collab
 Clone the repository:
 
 ```bash
-git clone https://github.com/Smarajitpal/Resolve360.git
-cd Resolve360
+[git clone https://github.com/Smarajitpal/Resolve360.git](https://github.com/Smarajitpal/Resolve360Frontend.git)
