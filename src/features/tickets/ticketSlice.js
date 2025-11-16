@@ -32,8 +32,7 @@ export const updateTicket = createAsyncThunk(
 export const addReply = createAsyncThunk(
   "tickets/reply",
   async ({ id, message }) => {
-    const response = await axios.post(`${BASE_URL}/${id}/reply`, message,{
-      headers: { "Content-Type": "application/json" },);
+    const response = await axios.post(`${BASE_URL}/${id}/reply`, message);
     return response.data;
   }
 );
